@@ -10,12 +10,13 @@
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
 * Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+    * The Logistic Regression model fitted with the Imbalanced DataSet predicted healthy loans 100% of the time and predicted non-healthy loans 85% of the time.
 
 ## Summary
+
+
+
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 
