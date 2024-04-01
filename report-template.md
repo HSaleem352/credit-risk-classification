@@ -10,8 +10,7 @@
 
 ## Results
 
-* Machine Learning Model 1:
-    * The Logistic Regression model fitted with the Imbalanced DataSet predicted healthy loans 100% of the time and predicted non-healthy loans 85% of the time.
+* The Logistic Regression model fitted with the Imbalanced DataSet predicted healthy loans 100% of the time and predicted non-healthy loans 85% of the time.
 
 ## Summary
 
