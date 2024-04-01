@@ -1,14 +1,12 @@
-# Module 12 Report Template
+# Module 20 Report Template
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+* When lending companies provide money or properties to borrowers, they expect the borrower to either return the asset or repay the loan. Credit Risk arises when a borrower fails to fulfill this obligation, leading to financial losses for the lender. Lenders assess credit risk through various methods. However, in this analysis, the focus is on using Machine Learning to examine a dataset of past lending activities from a peer-to-peer lending services company. The goal is to develop a model that can effectively determine the creditworthiness of borrowers.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+* With the dataset provided by the lending company, a Logistic Regression Model was created, achieving an accuracy score of 95%. Despite its high accuracy, the model's recall value for non-healthy loans is lower (0.91) compared to healthy loans (0.99). This suggests that the model is better at predicting loan statuses as healthy than identifying non-healthy ones. The imbalance in the dataset, where healthy loans significantly outnumber non-healthy ones, is the reason behind this observation.
+
+* The Logistic Regression Algorithm is considered the most suitable tool for their machine learning model as it is widely utilized to predict the probability of a target variable in classification problems, therefore, this model was used.
 
 ## Results
 
